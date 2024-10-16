@@ -23,3 +23,6 @@ setup(
     install_requires=["scikit-learn","pandas","numpy"],
     packages=find_packages()
 )
+"""
+install_requires=get_requirements(requirement.txt) -- packages required for classes of local package to work,
+"""
